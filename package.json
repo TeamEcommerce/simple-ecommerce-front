@@ -8,7 +8,6 @@
   "dependencies": {
     "babel-plugin-inline-react-svg": "^0.4.0",
     "bulma": "^0.4.4",
-    "font-awesome": "^4.7.0",
     "next": "beta",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",

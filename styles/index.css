@@ -1,0 +1,15 @@
+@import "bulma/css/bulma.css";
+@import "font-awesome/css/font-awesome.css";
+
+html, body {
+  height: 100vh;
+}
+
+.columns, .column {
+  height: 100vh;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}

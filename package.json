@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export -o dist",
+    "start": "next start",
+    "analize": "cross-env ANALYZE=1 next build"
+  },
+  "dependencies": {
+    "babel-plugin-inline-react-svg": "^0.4.0",
+    "bulma": "^0.4.4",
+    "font-awesome": "^4.7.0",
+    "next": "beta",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
+    "react-tap-event-plugin": "^2.0.1",
+    "styles": "^0.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-plugin-transform-assets": "^0.2.0",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-import-resolver-babel-module": "^3.0.0",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "file-loader": "^0.11.2",
+    "raw-loader": "^0.5.1",
+    "webpack-bundle-analyzer": "^2.8.3",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-easy-import": "^2.1.0",
+    "postcss-flexbugs-fixes": "^3.0.0",
+    "postcss-loader": "^2.0.6",
+    "postcss-utilities": "^0.7.0"
+  }
+}

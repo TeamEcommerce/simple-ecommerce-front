@@ -1,0 +1,38 @@
+---
+extends: airbnb
+
+env:
+  node: true
+  browser: true
+
+parserOptions:
+  ecmaVersion: 2017
+  sourceType: module
+  ecmaFeatures:
+    jsx: true
+    experimentalObjectRestSpread: true
+
+settings:
+  import/resolver:
+    babel-module: {}
+  import/extensions:
+    - .js
+
+rules:
+  consistent-return: off
+  no-use-before-define: off
+  no-param-reasign: off
+  object-curly-spacing:
+    - error
+    - always
+  func-names:
+    - error
+    - as-needed
+  # Next.js only support .js extension
+  react/jsx-filename-extension:
+    - error
+    - extensions:
+      - .js
+  # Next.js exposes React as a global
+  react/react-in-jsx-scope: off
+  import/named: error

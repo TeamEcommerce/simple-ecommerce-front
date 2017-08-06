@@ -1,0 +1,23 @@
+{
+  presets: [
+    'next/babel'
+  ],
+  ignore: [],
+  plugins: [
+  ["inline-react-svg"],
+    [
+      'module-resolver', {
+        root: ["."],
+        alias: {
+          styles: './styles',
+          documents: './documents',
+          components: './components',
+        },
+      }],
+    [
+      'wrap-in-js', {
+        extensions: ["css$", "md$"],
+      }
+    ],
+  ],
+}

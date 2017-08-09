@@ -1,0 +1,18 @@
+li{
+  padding: 21px;  
+}
+li:hover {
+  background-color: #FFCB28;
+}
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+span{
+  margin-left: 7px;
+}

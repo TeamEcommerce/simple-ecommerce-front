@@ -28,12 +28,12 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "file-loader": "^0.11.2",
-    "raw-loader": "^0.5.1",
-    "webpack-bundle-analyzer": "^2.8.3",
     "postcss-custom-media": "^6.0.0",
     "postcss-easy-import": "^2.1.0",
     "postcss-flexbugs-fixes": "^3.0.0",
     "postcss-loader": "^2.0.6",
-    "postcss-utilities": "^0.7.0"
+    "postcss-utilities": "^0.7.0",
+    "raw-loader": "^0.5.1",
+    "webpack-bundle-analyzer": "^2.8.3"
   }
 }

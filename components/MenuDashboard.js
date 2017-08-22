@@ -17,7 +17,7 @@ export default () => (
     <ul className="items">
       <MenuButton link="/admin/order" text="Pedidos" icon={Order} />
       <MenuButton link="/admin/product" text="Productos" icon={Product} />
-      <MenuButton link="/admin/product" text="Categorías" icon={Category} />
+      <MenuButton link="/admin/category" text="Categorías" icon={Category} />
       <MenuButton link="/admin/customer" text="Clientes" icon={Customer} />
       <MenuButton link="/admin/pay" text="Pagos" icon={Payment} />
     </ul>

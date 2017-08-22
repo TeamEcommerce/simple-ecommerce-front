@@ -1,4 +1,12 @@
 {
+  "name": "simple-ecommerce-front",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Simple Ecommerce Front",
+  "keywords": ["ecommerce"],
+  "author": "TeamEcommerce",
+  "license": "MIT",
+  "main": "",
   "scripts": {
     "dev": "next",
     "build": "next build && next export -o dist",

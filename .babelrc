@@ -12,6 +12,7 @@
           styles: './styles',
           documents: './documents',
           components: './components',
+          containers: './containers',
         },
       }],
     [

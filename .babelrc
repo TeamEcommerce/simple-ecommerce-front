@@ -1,23 +1,23 @@
 {
-  presets: [
-    'next/babel'
+  "presets": [
+    "next/babel"
   ],
-  ignore: [],
-  plugins: [
+  "ignore": [],
+  "plugins": [
   ["inline-react-svg"],
     [
-      'module-resolver', {
-        root: ["."],
-        alias: {
-          styles: './styles',
-          documents: './documents',
-          components: './components',
-          containers: './containers',
+      "module-resolver", {
+        "root": ["."],
+        "alias": {
+          "styles": "./styles",
+          "documents": "./documents",
+          "components": "./components",
+          "containers": "./containers",
         },
       }],
     [
-      'wrap-in-js', {
-        extensions: ["css$", "md$"],
+      "wrap-in-js", {
+        "extensions": ["css$", "md$"],
       }
     ],
   ],

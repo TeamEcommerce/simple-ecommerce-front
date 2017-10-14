@@ -1,4 +1,6 @@
 @import "bulma/css/bulma.css";
+@import "../components/MenuAdmin/MenuButton.css";
+@import "../components/MenuDashboard.css";
 
 html, body {
   height: 100vh;

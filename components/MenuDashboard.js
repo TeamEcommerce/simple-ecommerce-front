@@ -11,7 +11,7 @@ export default () => (
   <div className="menu-panel">
     <style jsx>{styles}</style>
     <div className="user">
-      <img src="./static/img/photo.jpg" alt="img profile" />
+      <img src="../../static/img/photo.jpg" alt="img profile" />
       <span>Admin</span>
     </div>
     <ul className="items">

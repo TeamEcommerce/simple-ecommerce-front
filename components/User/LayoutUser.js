@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import stylesheet from './../../styles/index.css';
+import stylesheet from './../../styles/user.css';
 
 export default ({ children, title = 'Simple Ecommerce' }) => (
   <div>

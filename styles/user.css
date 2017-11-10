@@ -1,0 +1,16 @@
+@import "bulma/css/bulma.css";
+@import "../components/User/LayoutUser.css";
+
+html, body {
+  height: 100vh;
+  background-color: #536575;
+}
+
+.columns, .column {
+  height: 100vh;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}

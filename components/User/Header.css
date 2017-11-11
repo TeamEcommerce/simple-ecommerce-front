@@ -1,0 +1,14 @@
+.header-portal-container {
+  margin-bottom: 50px !important;
+}
+
+.header-portal {
+  height: 100px;
+  padding-left: 40px;
+  padding-top: 20px;
+  background-color: #FFC125;
+}
+
+.company-name > h1 {
+  font-weight: bold;
+}

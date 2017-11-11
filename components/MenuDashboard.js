@@ -1,5 +1,4 @@
 import styles from  './MenuDashboard.css';
-// https://gorangajic.github.io/react-icons/fa.html
 import Order from 'react-icons/lib/fa/cart-arrow-down';
 import Product from 'react-icons/lib/fa/shopping-bag';
 import Category from 'react-icons/lib/fa/contao';
